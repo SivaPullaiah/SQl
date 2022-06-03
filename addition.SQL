@@ -15,9 +15,10 @@ z:=x+y;
 
 dbms_output.put_line('Sum is '||z);
 end;
-/* output:
-old 11: y:=&y;
-new 11: y:=13;
-Sum is 25
-PL/SQL procedure successfully completed.
+
+/*
+    old 11: y:=&y;
+    new 11: y:=13;
+    Sum is 25
+    PL/SQL procedure successfully completed.
 */

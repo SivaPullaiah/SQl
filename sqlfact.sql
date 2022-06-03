@@ -15,3 +15,10 @@ end loop;
 dbms_output.put_line(fac);
 
 end;			
+
+/* output: 
+    old 5: n number := &n;
+    new 5: n number := 4;
+    24
+    PL/SQL procedure successfully completed.
+*/
