@@ -5,7 +5,7 @@ if(position = 1) or (position = 2)
 then
     return 1;
 else
-    return fib(position-1)+fib(palindrome-2);
+    return fib(position-1)+fib(position-2);
 end if;
 end;
 
